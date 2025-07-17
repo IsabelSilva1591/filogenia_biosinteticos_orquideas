@@ -134,7 +134,7 @@ iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
 
 ## Ejecución
 
-![Árbol filogenético de CHS](./Results/arbol_chs.png)
+
 
 > Árbol filogenético generado con IQ-TREE a partir de secuencias de CHS en *Dendrobium*.
 
