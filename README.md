@@ -5,15 +5,23 @@ Este proyecto tiene como objetivo estudiar la filogenia de genes relacionados co
 ---
 
 ## Introducción
-Las orquídeas (Orchidaceae) representan una de las familias más diversas, complejas y fascinantes del reino vegetal. Con más de 25,000 especies descritas y miles de híbridos cultivados, han colonizado prácticamente todos los ecosistemas terrestres, desde selvas tropicales hasta desiertos de alta montaña. Esta extraordinaria diversificación se ha visto impulsada, en parte, por su notable capacidad de adaptación fisiológica y metabólica. Dentro de estas adaptaciones, destaca la producción de metabolitos secundarios, un grupo amplio y variado de compuestos bioactivos que no son esenciales para la supervivencia inmediata de la planta, pero que juegan roles cruciales en su éxito ecológico.
+Las orquídeas (Orchidaceae) constituyen una de las familias más amplias y diversas del reino Plantae, con más de 25,000 especies descritas y una distribución global que abarca desde selvas tropicales hasta zonas alpinas. Su éxito adaptativo ha sido atribuido a una combinación de estrategias reproductivas complejas, interacciones altamente especializadas con polinizadores y simbiontes, y a una notable diversificación química mediada por metabolitos secundarios (Givnish et al., 2015; Cheynier et al., 2013).
 
-Los metabolitos secundarios incluyen una amplia gama de compuestos como flavonoides, terpenoides, alcaloides, fenilpropanoides y estilbenos. En las orquídeas, estos compuestos tienen funciones que abarcan desde la pigmentación floral (atracción de polinizadores), defensa química contra herbívoros y patógenos, hasta la regulación de respuestas al estrés abiótico como radiación UV, sequía o salinidad. Su producción está finamente regulada a nivel genético y responde tanto a señales internas del desarrollo como a estímulos ambientales (Cheynier et al., 2013; Yang et al., 2018).
+Los metabolitos secundarios son compuestos bioactivos derivados de rutas metabólicas especializadas. Aunque no son esenciales para el crecimiento o desarrollo básico de la planta, desempeñan roles cruciales en la defensa contra herbívoros y patógenos, la atracción de polinizadores, la competencia interespecífica y la tolerancia a estrés abiótico (Yang et al., 2018; Wink, 2003). En orquídeas, estos compuestos incluyen flavonoides, terpenoides, estilbenos, alcaloides, lignanos y fenilpropanoides, entre otros.
 
-Estudios recientes han revelado que muchas de estas rutas biosintéticas presentan una evolución dinámica, incluyendo eventos de duplicación génica, neofuncionalización y pérdida de función. Por lo tanto, entender la evolución de los genes involucrados en estas rutas no solo aporta información clave sobre la biología adaptativa de las orquídeas, sino también sobre sus potenciales aplicaciones en biotecnología, medicina natural y conservación.
+Los genes responsables de la biosíntesis de estos metabolitos han sido objeto de duplicación, diversificación y, en muchos casos, de neofuncionalización, dando lugar a nuevas funciones bioquímicas a lo largo de la evolución de las angiospermas (Pichersky & Gang, 2000; Schluttenhofer & Yuan, 2015). La evolución de estas rutas no es aleatoria: está influenciada por presiones ecológicas y ambientales que moldean la expresión, regulación y especificidad de estas enzimas (Zhang et al., 2020; Moghe & Last, 2015).
 
-En este contexto, tres enzimas clave han sido seleccionadas como foco de análisis: chalcona sintasa (CHS), terpeno sintasa (TPS) y bibenzil sintasa (BBS). Estas catalizan pasos fundamentales en la síntesis de flavonoides, terpenoides y estilbenos, respectivamente. A través de estudios filogenéticos de estos genes en especies de los géneros Dendrobium y Phalaenopsis, se busca comprender sus trayectorias evolutivas, relaciones de homología y patrones de divergencia funcional.
+En este contexto, tres enzimas se destacan por su papel en rutas biosintéticas clave:
 
-Este proyecto se enmarca en el interés creciente por desentrañar los mecanismos moleculares que sustentan la evolución de la diversidad química vegetal, así como en el aprovechamiento racional de estos recursos para la salud humana, la industria cosmética y la protección de la biodiversidad.
+Chalcona sintasa (CHS): cataliza el primer paso comprometido en la biosíntesis de flavonoides, pigmentos esenciales en la coloración floral y antioxidantes reconocidos.
+
+Terpeno sintasa (TPS): clave en la producción de compuestos volátiles como monoterpenos y sesquiterpenos, fundamentales en la atracción de polinizadores y defensa química.
+
+Bibenzil sintasa (BBS): relacionada con la producción de estilbenoides y derivados fenólicos, con funciones antimicrobianas y antioxidantes (Zhang et al., 2015).
+
+Estudiar filogenéticamente estos genes en especies de los géneros Dendrobium y Phalaenopsis no solo permite reconstruir sus trayectorias evolutivas, sino también identificar regiones conservadas, eventos de duplicación génica, y posibles señales de selección positiva. Además, estos estudios tienen aplicaciones prácticas: pueden identificar genes candidatos para ingeniería metabólica o conservación de especies con metabolitos bioactivos de interés médico, cosmético o agrícola (Yang et al., 2018; Vogt, 2010).
+
+Este proyecto, por tanto, se sitúa en la intersección entre la biología evolutiva, la genómica comparada y la biotecnología vegetal, con el objetivo de comprender cómo la evolución molecular ha dado forma a la diversidad química de una de las familias vegetales más extraordinarias del planeta.
 
 ---
 
@@ -116,6 +124,12 @@ Isabel Silva
 [GitHub: IsabelSilva1591](https://github.com/IsabelSilva1591)
 
 ## Referencias
-- Edgar, R.C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. *Nucleic Acids Research*, 32(5), 1792–1797.
-- Minh, B.Q. et al. (2020). IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. *Molecular Biology and Evolution*, 37(5), 1530–1534.
-- NCBI GenBank: https://www.ncbi.nlm.nih.gov/genbank/
+Givnish, T. J., et al. (2015). Orchid phylogenomics and multiple drivers of their extraordinary diversification. Proceedings of the Royal Society B, 282(1814), 20151553. https://doi.org/10.1098/rspb.2015.1553
+Cheynier, V., et al. (2013). Plant phenolics: recent advances on their biosynthesis, genetics and ecophysiology. Plant Physiology and Biochemistry, 72, 1–20.
+Yang, L., et al. (2018). Response of plant secondary metabolites to environmental factors. Molecules, 23(4), 762.
+Pichersky, E., & Gang, D. R. (2000). Genetics and biochemistry of secondary metabolites in plants: an evolutionary perspective. Trends in Plant Science, 5(10), 439–445.
+Schluttenhofer, C., & Yuan, L. (2015). Regulation of specialized metabolism by WRKY transcription factors. Plant Physiology, 167(2), 295–306.
+Wink, M. (2003). Evolution of secondary metabolites from an ecological and molecular phylogenetic perspective. Phytochemistry, 64(1), 3–19. https://doi.org/10.1016/S0031-9422(03)00300-5
+Moghe, G. D., & Last, R. L. (2015). Something old, something new: conserved enzymes and the evolution of novelty in plant specialized metabolism. Plant Physiology, 169(3), 1512–1523.
+Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
+Vogt, T. (2010). Phenylpropanoid biosynthesis. Molecular Plant, 3(1), 2–20.
