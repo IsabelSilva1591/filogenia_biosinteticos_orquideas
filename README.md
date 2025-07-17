@@ -4,7 +4,7 @@ Este proyecto tiene como objetivo estudiar la filogenia de genes relacionados co
 
 ---
 
-## 🔬 Objetivo
+## Objetivo
 
 Analizar filogenéticamente genes biosintéticos clave en diferentes géneros de orquídeas, comenzando con un análisis 3x3 de los genes:
 - **CHS** (chalcona sintasa)
@@ -13,7 +13,7 @@ Analizar filogenéticamente genes biosintéticos clave en diferentes géneros de
 
 ---
 
-## 🧬 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Orchid_proyect/
@@ -38,7 +38,7 @@ Orchid_proyect/
 
 ---
 
-## 🔧 Herramientas Utilizadas
+## Herramientas Utilizadas
 
 - `esearch` y `efetch` (NCBI): descarga de secuencias
 - `MUSCLE`: alineamiento múltiple
@@ -48,7 +48,7 @@ Orchid_proyect/
 
 ---
 
-## 🧪 Ejecución en Hoffman2
+## Ejecución en Hoffman2
 
 1. **Descarga de secuencias:**
 ```bash
@@ -69,16 +69,16 @@ iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
 
 ---
 
-## 🧭 Avances
+## Avances
 
-- ✅ Proyecto estructurado
-- ✅ Scripts de descarga y análisis probados
-- ✅ GitHub actualizado (excepto archivos >100MB)
-- ⚠️ Archivo `chs_all.fasta` no subido por exceder el límite de GitHub (270 MB)
+-  Proyecto estructurado
+-  Scripts de descarga y análisis probados
+-  GitHub actualizado (excepto archivos >100MB)
+-  Archivo `chs_all.fasta` no subido por exceder el límite de GitHub (270 MB)
 
 ---
 
-## 📌 Recomendaciones
+##  Recomendaciones
 
 - Evitar subir archivos pesados a GitHub
 - Utilizar `.gitignore` para excluir archivos >100 MB
@@ -86,7 +86,7 @@ iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
 
 ---
 
-## 👩‍🔬 Autora
+## Autora
 
 Isabel Silva  
 [GitHub: IsabelSilva1591](https://github.com/IsabelSilva1591)
