@@ -1,7 +1,23 @@
 # Filogenia de Genes de Rutas Biosintéticas en Orquídeas
 
-Este proyecto tiene como objetivo estudiar la filogenia de genes relacionados con rutas biosintéticas en orquídeas, utilizando herramientas de alineamiento, inferencia filogenética y análisis evolutivo. El trabajo se ha desarrollado principalmente en el clúster de cómputo Hoffman2, complementado con organización local y respaldo en GitHub.
 
+Este proyecto explora la evolución molecular de genes implicados en rutas biosintéticas de metabolitos secundarios en orquídeas, enfocándose en tres enzimas clave: **CHS**, **TPS** y **BBS**. Se utilizan herramientas de alineamiento y análisis filogenético sobre secuencias de especies de *Dendrobium* y *Phalaenopsis*. El desarrollo se ha realizado en el clúster de cómputo **Hoffman2**, con respaldo en GitHub.
+
+---
+
+## Tabla de contenido
+- [Introducción](#introducción)
+- [Objetivos](#objetivos)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Herramientas Utilizadas](#herramientas-utilizadas)
+- [Ejecución](#ejecución)
+- [Ejemplo de Resultado](#ejemplo-de-resultado)
+- [Instalación rápida (opcional)](#instalación-rápida-opcional)
+- [Recomendaciones](#recomendaciones)
+- [Autora](#autora)
+- [Referencias](#referencias)
+- [Licencia](#licencia)
+- [Cómo citar este proyecto](#cómo-citar-este-proyecto)
 ---
 
 ## Introducción
@@ -77,9 +93,42 @@ Orchid_proyect/
 - `IQ-TREE`: construcción de árboles filogenéticos
 - `Bash`: automatización de procesos
 - `Hoffman2`: entorno de cómputo de alto rendimiento
+---
+
+## Ejecución
+
+```bash
+# 1. Descargar secuencias
+esearch -db nucleotide -query "chalcone synthase[Gene] AND Dendrobium[Organism]" | \
+efetch -format fasta > chs_dendrobium.fasta
+
+# 2. Alinear secuencias
+./muscle3.8.31_i86linux64 -in ../Data/chs_dendrobium.fasta -out ../Results/alineamiento_chs.fasta
+
+# 3. Inferencia filogenética
+module load iqtree/2.2.2.6
+iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
+---
+
+## Ejemplo de Resultado
+
+![Árbol filogenético de CHS](./Results/arbol_chs.png)
+
+> Árbol filogenético generado con IQ-TREE a partir de secuencias de CHS en *Dendrobium*.
 
 ---
 
+## Instalación rápida (opcional)
+
+```bash
+git clone https://github.com/IsabelSilva1591/Orchid_proyect.git
+cd Orchid_proyect
+```
+---
+Requisitos:
+- Linux/macOS
+- `bash`, `MUSCLE`, `IQ-TREE` instalados
+- Acceso a NCBI (opcional: Entrez Direct)
 ## Ejecución en Hoffman2
 
 1. **Descarga de secuencias:**
@@ -137,6 +186,18 @@ Isabel Silva
 -Wink, M. (2003). Evolution of secondary metabolites from an ecological and molecular phylogenetic perspective. Phytochemistry, 64(1), 3–19. https://doi.org/10.1016/S0031-9422(03)00300-5
 
 -Moghe, G. D., & Last, R. L. (2015). Something old, something new: conserved enzymes and the evolution of novelty in plant specialized metabolism. Plant Physiology, 169(3), 1512–1523.
+
+---
+
+## Licencia
+
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
+
+---
+
+## Cómo citar este proyecto
+
+> Silva, I. (2025). *Filogenia de Genes de Rutas Biosintéticas en Orquídeas*. GitHub. https://github.com/IsabelSilva1591/Orchid_proyect
 
 -Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
 
