@@ -108,27 +108,8 @@ efetch -format fasta > chs_dendrobium.fasta
 # 3. Inferencia filogenética
 module load iqtree/2.2.2.6
 iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
----
-
-## Ejemplo de Resultado
-
-![Árbol filogenético de CHS](./Results/arbol_chs.png)
-
-> Árbol filogenético generado con IQ-TREE a partir de secuencias de CHS en *Dendrobium*.
 
 ---
-
-## Instalación rápida (opcional)
-
-```bash
-git clone https://github.com/IsabelSilva1591/Orchid_proyect.git
-cd Orchid_proyect
-```
----
-Requisitos:
-- Linux/macOS
-- `bash`, `MUSCLE`, `IQ-TREE` instalados
-- Acceso a NCBI (opcional: Entrez Direct)
 ## Ejecución en Hoffman2
 
 1. **Descarga de secuencias:**
@@ -147,6 +128,27 @@ efetch -format fasta > chs_dendrobium.fasta
 module load iqtree/2.2.2.6
 iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
 ```
+
+
+## Ejecución
+
+![Árbol filogenético de CHS](./Results/arbol_chs.png)
+
+> Árbol filogenético generado con IQ-TREE a partir de secuencias de CHS en *Dendrobium*.
+
+---
+
+## Instalación rápida (opcional)
+
+```bash
+git clone https://github.com/IsabelSilva1591/Orchid_proyect.git
+cd Orchid_proyect
+```
+---
+Requisitos:
+- Linux/macOS
+- `bash`, `MUSCLE`, `IQ-TREE` instalados
+- Acceso a NCBI (opcional: Entrez Direct)
 
 ---
 
