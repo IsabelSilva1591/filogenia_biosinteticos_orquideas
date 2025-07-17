@@ -188,6 +188,10 @@ Isabel Silva
 -Wink, M. (2003). Evolution of secondary metabolites from an ecological and molecular phylogenetic perspective. Phytochemistry, 64(1), 3–19. https://doi.org/10.1016/S0031-9422(03)00300-5
 
 -Moghe, G. D., & Last, R. L. (2015). Something old, something new: conserved enzymes and the evolution of novelty in plant specialized metabolism. Plant Physiology, 169(3), 1512–1523.
+-Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
+
+-Vogt, T. (2010). Phenylpropanoid biosynthesis. Molecular Plant, 3(1), 2–20.
+
 
 ---
 
@@ -201,6 +205,3 @@ Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
 
 > Silva, I. (2025). *Filogenia de Genes de Rutas Biosintéticas en Orquídeas*. GitHub. https://github.com/IsabelSilva1591/Orchid_proyect
 
--Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
-
--Vogt, T. (2010). Phenylpropanoid biosynthesis. Molecular Plant, 3(1), 2–20.
