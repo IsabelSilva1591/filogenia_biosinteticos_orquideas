@@ -205,4 +205,9 @@ Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
 
 ## Cómo citar este proyecto
 
+<<<<<<< HEAD
 > Silva, I. (2025). *Filogenia de Genes de Rutas Biosintéticas en Orquídeas*. GitHub. https://github.com/IsabelSilva1591/Orchid_proyect
+=======
+> Silva, I. (2025). *Filogenia de Genes de Rutas Biosintéticas en Orquídeas*. GitHub. https://github.com/IsabelSilva1591/Orchid_proyect
+
+>>>>>>> 401a050a41d17b046d776bdd6eaa23cf29a1585d
