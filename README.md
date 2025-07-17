@@ -1,7 +1,13 @@
 # Filogenia de Genes de Rutas Biosintéticas en Orquídeas
 
 
-Este proyecto explora la evolución molecular de genes implicados en rutas biosintéticas de metabolitos secundarios en orquídeas, enfocándose en tres enzimas clave: **CHS**, **TPS** y **BBS**. Se utilizan herramientas de alineamiento y análisis filogenético sobre secuencias de especies de *Dendrobium* y *Phalaenopsis*. El desarrollo se ha realizado en el clúster de cómputo **Hoffman2**, con respaldo en GitHub.
+Este proyecto tiene como objetivo analizar la evolución de genes involucrados en rutas biosintéticas de orquídeas, con un enfoque inicial en la familia de genes CHS (Chalcona Sintasa), esenciales para la producción de flavonoides y pigmentos florales.
+
+Como parte de una estrategia por etapas, se desarrolló un pipeline bioinformático que permite automatizar la obtención de secuencias, alineamiento y construcción de árboles filogenéticos. En esta primera fase, se emplearon tres secuencias representativas (3x3) correspondientes a diferentes especies de orquídeas, con el fin de validar el flujo de trabajo y generar un árbol preliminar.
+
+El árbol obtenido, aunque simple, refleja el estado inicial del análisis. Se reconoce que el número limitado de secuencias reduce la resolución filogenética; sin embargo, el enfoque fue deliberado para asegurar la reproducibilidad del proceso.
+
+En etapas siguientes, se planea una ampliación del conjunto de datos incluyendo más especies, genes y réplicas estadísticas (bootstrap) para fortalecer la robustez del árbol.
 
 ---
 ## Tabla de contenido
