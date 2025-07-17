@@ -36,9 +36,11 @@ Terpeno sintasa (TPS): clave en la producción de compuestos volátiles como mon
 
 Bibenzil sintasa (BBS): relacionada con la producción de estilbenoides y derivados fenólicos, con funciones antimicrobianas y antioxidantes (Zhang et al., 2015).
 
-Estudiar filogenéticamente estos genes en especies de los géneros Dendrobium y Phalaenopsis no solo permite reconstruir sus trayectorias evolutivas, sino también identificar regiones conservadas, eventos de duplicación génica, y posibles señales de selección positiva. Además, estos estudios tienen aplicaciones prácticas: pueden identificar genes candidatos para ingeniería metabólica o conservación de especies con metabolitos bioactivos de interés médico, cosmético o agrícola (Yang et al., 2018; Vogt, 2010).
+Estudiar filogenéticamente estos genes en especies de los géneros Dendrobium y Phalaenopsis no solo permite reconstruir sus trayectorias evolutivas, sino también identificar regiones conservadas, eventos de duplicación génica, y posibles señales de selección positiva. Además, estos estudios tienen aplicaciones prácticas: pueden identificar genes candidatos para ingeniería metabólica o conservación de especies con metabolitos bioactivos de interés médico, cosmético o agrícola (Yang et al., 2018; Vogt, 2010). 
 
 Este proyecto, por tanto, se sitúa en la intersección entre la biología evolutiva, la genómica comparada y la biotecnología vegetal, con el objetivo de comprender cómo la evolución molecular ha dado forma a la diversidad química de una de las familias vegetales más extraordinarias del planeta.
+
+
 ---
 
 ## Objetivo
