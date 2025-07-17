@@ -1,113 +1,92 @@
-<<<<<<< HEAD
-#Estudio de genes relacionados con la produccion de terpenos, flavonoides y bibencilos
+# Filogenia de Genes de Rutas Biosintéticas en Orquídeas
 
-One Paragraph of project description goes here
+Este proyecto tiene como objetivo estudiar la filogenia de genes relacionados con rutas biosintéticas en orquídeas, utilizando herramientas de alineamiento, inferencia filogenética y análisis evolutivo. El trabajo se ha desarrollado principalmente en el clúster de cómputo Hoffman2, complementado con organización local y respaldo en GitHub.
 
-## Getting Started
+---
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## 🔬 Objetivo
 
-### Prerequisites
+Analizar filogenéticamente genes biosintéticos clave en diferentes géneros de orquídeas, comenzando con un análisis 3x3 de los genes:
+- **CHS** (chalcona sintasa)
+- **TPS** (terpeno sintasa)
+- **BBS** (bibenzil sintasa)
 
-What things you need to install the software and how to install them
+---
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+## 🧬 Estructura del Proyecto
 
 ```
-Give the example
+Orchid_proyect/
+├── Data/                # Archivos FASTA y datos descargados
+│   ├── chs_varias_orquideas.fasta
+│   ├── chs_dendrobium.fasta
+│   ├── tps_phalaenopsis.fasta
+│   └── bbs_dendrobium.fasta
+│
+├── Scripts/             # Scripts utilizados para descarga y análisis
+│   ├── Get.genes.NCBI.sh
+│   ├── muscle3.8.31_i86linux64
+│   └── mi_script.sh
+│
+├── Results/             # Archivos generados por IQ-TREE y MUSCLE
+│   ├── alineamiento_chs.fasta
+│   ├── arbol_chs.treefile
+│   └── arbol_chs.iqtree
+│
+└── README.md
 ```
 
-And repeat
+---
 
-```
-until finished
-```
+## 🔧 Herramientas Utilizadas
 
-End with an example of getting some data out of the system or using it for a little demo
+- `esearch` y `efetch` (NCBI): descarga de secuencias
+- `MUSCLE`: alineamiento múltiple
+- `IQ-TREE`: construcción de árboles filogenéticos
+- `Bash`: automatización de procesos
+- `Hoffman2`: entorno de cómputo de alto rendimiento
 
-## Running the tests
+---
 
-Explain how to run the automated tests for this system
+## 🧪 Ejecución en Hoffman2
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-=======
-# Proyecto: Filogenia de Genes Biosintéticos en Orquídeas
-
-## Autora
-Isabel Silva
-
-## Descripción
-Este proyecto analiza la evolución de genes biosintéticos (como *CHS*) en orquídeas, mediante alineamiento de secuencias y generación de árboles filogenéticos. Usa datos públicos, software de alineamiento (MUSCLE) y reconstrucción filogenética (IQ-TREE). Está diseñado para ejecutarse en el supercomputador Hoffman.
-
-## Estructura del repositorio
-- `/Data/`: contiene el archivo `genes.fasta` con secuencias de prueba.
-- `/Scripts/`: contiene el script `mi_script.sh` que ejecuta el flujo completo.
-- `/Results/`: contendrá el alineamiento y el árbol generado.
-
-## Requisitos
-- MUSCLE 3.8.31
-- IQ-TREE 2+
-- Hoffman (entorno Linux con módulos)
-- Permisos de ejecución para scripts (`chmod +x mi_script.sh`)
-
-## Cómo ejecutar
+1. **Descarga de secuencias:**
 ```bash
-bash Scripts/mi_script.sh
->>>>>>> 757b9f6b93857a8752424f9ae0eb33e11b9e885f
+esearch -db nucleotide -query "chalcone synthase[Gene] AND Dendrobium[Organism]" | \
+efetch -format fasta > chs_dendrobium.fasta
+```
+
+2. **Alineamiento con MUSCLE:**
+```bash
+./muscle3.8.31_i86linux64 -in ../Data/chs_dendrobium.fasta -out ../Results/alineamiento_chs.fasta
+```
+
+3. **Inferencia filogenética con IQ-TREE:**
+```bash
+module load iqtree/2.2.2.6
+iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
+```
+
+---
+
+## 🧭 Avances
+
+- ✅ Proyecto estructurado
+- ✅ Scripts de descarga y análisis probados
+- ✅ GitHub actualizado (excepto archivos >100MB)
+- ⚠️ Archivo `chs_all.fasta` no subido por exceder el límite de GitHub (270 MB)
+
+---
+
+## 📌 Recomendaciones
+
+- Evitar subir archivos pesados a GitHub
+- Utilizar `.gitignore` para excluir archivos >100 MB
+- Documentar todos los comandos útiles en scripts y README
+
+---
+
+## 👩‍🔬 Autora
+
+Isabel Silva  
+[GitHub: IsabelSilva1591](https://github.com/IsabelSilva1591)
