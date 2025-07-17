@@ -124,12 +124,12 @@ Isabel Silva
 [GitHub: IsabelSilva1591](https://github.com/IsabelSilva1591)
 
 ## Referencias
-Givnish, T. J., et al. (2015). Orchid phylogenomics and multiple drivers of their extraordinary diversification. Proceedings of the Royal Society B, 282(1814), 20151553. https://doi.org/10.1098/rspb.2015.1553
-Cheynier, V., et al. (2013). Plant phenolics: recent advances on their biosynthesis, genetics and ecophysiology. Plant Physiology and Biochemistry, 72, 1–20.
-Yang, L., et al. (2018). Response of plant secondary metabolites to environmental factors. Molecules, 23(4), 762.
-Pichersky, E., & Gang, D. R. (2000). Genetics and biochemistry of secondary metabolites in plants: an evolutionary perspective. Trends in Plant Science, 5(10), 439–445.
-Schluttenhofer, C., & Yuan, L. (2015). Regulation of specialized metabolism by WRKY transcription factors. Plant Physiology, 167(2), 295–306.
-Wink, M. (2003). Evolution of secondary metabolites from an ecological and molecular phylogenetic perspective. Phytochemistry, 64(1), 3–19. https://doi.org/10.1016/S0031-9422(03)00300-5
-Moghe, G. D., & Last, R. L. (2015). Something old, something new: conserved enzymes and the evolution of novelty in plant specialized metabolism. Plant Physiology, 169(3), 1512–1523.
-Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
-Vogt, T. (2010). Phenylpropanoid biosynthesis. Molecular Plant, 3(1), 2–20.
+-Givnish, T. J., et al. (2015). Orchid phylogenomics and multiple drivers of their extraordinary diversification. Proceedings of the Royal Society B, 282(1814), 20151553. https://doi.org/10.1098/rspb.2015.1553
+-Cheynier, V., et al. (2013). Plant phenolics: recent advances on their biosynthesis, genetics and ecophysiology. Plant Physiology and Biochemistry, 72, 1–20.
+-Yang, L., et al. (2018). Response of plant secondary metabolites to environmental factors. Molecules, 23(4), 762.
+-Pichersky, E., & Gang, D. R. (2000). Genetics and biochemistry of secondary metabolites in plants: an evolutionary perspective. Trends in Plant Science, 5(10), 439–445.
+-Schluttenhofer, C., & Yuan, L. (2015). Regulation of specialized metabolism by WRKY transcription factors. Plant Physiology, 167(2), 295–306.
+-Wink, M. (2003). Evolution of secondary metabolites from an ecological and molecular phylogenetic perspective. Phytochemistry, 64(1), 3–19. https://doi.org/10.1016/S0031-9422(03)00300-5
+-Moghe, G. D., & Last, R. L. (2015). Something old, something new: conserved enzymes and the evolution of novelty in plant specialized metabolism. Plant Physiology, 169(3), 1512–1523.
+-Zhang, Y., et al. (2020). Natural flavonoids and terpenoids with potential anticancer properties: mechanisms and structure–activity relationships. Current Medicinal Chemistry, 27(26), 4357–4392.
+-Vogt, T. (2010). Phenylpropanoid biosynthesis. Molecular Plant, 3(1), 2–20.
