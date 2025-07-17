@@ -4,20 +4,21 @@
 Este proyecto explora la evolución molecular de genes implicados en rutas biosintéticas de metabolitos secundarios en orquídeas, enfocándose en tres enzimas clave: **CHS**, **TPS** y **BBS**. Se utilizan herramientas de alineamiento y análisis filogenético sobre secuencias de especies de *Dendrobium* y *Phalaenopsis*. El desarrollo se ha realizado en el clúster de cómputo **Hoffman2**, con respaldo en GitHub.
 
 ---
-
 ## Tabla de contenido
 - [Introducción](#introducción)
-- [Objetivos](#objetivos)
+- [Objetivo](#objetivo)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Herramientas Utilizadas](#herramientas-utilizadas)
 - [Ejecución](#ejecución)
 - [Ejemplo de Resultado](#ejemplo-de-resultado)
 - [Instalación rápida (opcional)](#instalación-rápida-opcional)
+- [Avances](#avances)
 - [Recomendaciones](#recomendaciones)
 - [Autora](#autora)
 - [Referencias](#referencias)
 - [Licencia](#licencia)
 - [Cómo citar este proyecto](#cómo-citar-este-proyecto)
+
 ---
 
 ## Introducción
