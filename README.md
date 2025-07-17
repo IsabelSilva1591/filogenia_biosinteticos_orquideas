@@ -90,3 +90,8 @@ iqtree -s alineamiento_chs.fasta -m MFP -nt AUTO -pre arbol_chs
 
 Isabel Silva  
 [GitHub: IsabelSilva1591](https://github.com/IsabelSilva1591)
+
+## Referencias
+- Edgar, R.C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. *Nucleic Acids Research*, 32(5), 1792–1797.
+- Minh, B.Q. et al. (2020). IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. *Molecular Biology and Evolution*, 37(5), 1530–1534.
+- NCBI GenBank: https://www.ncbi.nlm.nih.gov/genbank/
