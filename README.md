@@ -4,12 +4,36 @@ Este proyecto tiene como objetivo estudiar la filogenia de genes relacionados co
 
 ---
 
+## Introducción
+Las orquídeas (Orchidaceae) representan una de las familias más diversas, complejas y fascinantes del reino vegetal. Con más de 25,000 especies descritas y miles de híbridos cultivados, han colonizado prácticamente todos los ecosistemas terrestres, desde selvas tropicales hasta desiertos de alta montaña. Esta extraordinaria diversificación se ha visto impulsada, en parte, por su notable capacidad de adaptación fisiológica y metabólica. Dentro de estas adaptaciones, destaca la producción de metabolitos secundarios, un grupo amplio y variado de compuestos bioactivos que no son esenciales para la supervivencia inmediata de la planta, pero que juegan roles cruciales en su éxito ecológico.
+
+Los metabolitos secundarios incluyen una amplia gama de compuestos como flavonoides, terpenoides, alcaloides, fenilpropanoides y estilbenos. En las orquídeas, estos compuestos tienen funciones que abarcan desde la pigmentación floral (atracción de polinizadores), defensa química contra herbívoros y patógenos, hasta la regulación de respuestas al estrés abiótico como radiación UV, sequía o salinidad. Su producción está finamente regulada a nivel genético y responde tanto a señales internas del desarrollo como a estímulos ambientales (Cheynier et al., 2013; Yang et al., 2018).
+
+Estudios recientes han revelado que muchas de estas rutas biosintéticas presentan una evolución dinámica, incluyendo eventos de duplicación génica, neofuncionalización y pérdida de función. Por lo tanto, entender la evolución de los genes involucrados en estas rutas no solo aporta información clave sobre la biología adaptativa de las orquídeas, sino también sobre sus potenciales aplicaciones en biotecnología, medicina natural y conservación.
+
+En este contexto, tres enzimas clave han sido seleccionadas como foco de análisis: chalcona sintasa (CHS), terpeno sintasa (TPS) y bibenzil sintasa (BBS). Estas catalizan pasos fundamentales en la síntesis de flavonoides, terpenoides y estilbenos, respectivamente. A través de estudios filogenéticos de estos genes en especies de los géneros Dendrobium y Phalaenopsis, se busca comprender sus trayectorias evolutivas, relaciones de homología y patrones de divergencia funcional.
+
+Este proyecto se enmarca en el interés creciente por desentrañar los mecanismos moleculares que sustentan la evolución de la diversidad química vegetal, así como en el aprovechamiento racional de estos recursos para la salud humana, la industria cosmética y la protección de la biodiversidad.
+
+---
+
 ## Objetivo
 
-Analizar filogenéticamente genes biosintéticos clave en diferentes géneros de orquídeas, comenzando con un análisis 3x3 de los genes:
-- **CHS** (chalcona sintasa)
-- **TPS** (terpeno sintasa)
-- **BBS** (bibenzil sintasa)
+El objetivo general de este proyecto es explorar la evolución molecular de genes clave en rutas biosintéticas de metabolitos secundarios en orquídeas, mediante análisis filogenéticos comparativos de las enzimas CHS, TPS y BBS en diferentes especies de los géneros Dendrobium y Phalaenopsis.
+
+De forma más específica, este estudio busca:
+
+-Establecer relaciones filogenéticas entre secuencias homólogas de CHS, TPS y BBS.
+
+-Identificar regiones conservadas y patrones de divergencia funcional.
+
+-Evaluar la posible duplicación génica o eventos de neofuncionalización.
+
+-Sugerir genes candidatos para bioprospección farmacológica o ingeniería genética.
+
+-Contribuir a estrategias de conservación molecular de especies amenazadas.
+
+Este análisis se sustenta en el creciente interés de la biotecnología vegetal y la medicina tradicional por las propiedades antioxidantes, antimicrobianas, antitumorales y neuroprotectoras de metabolitos derivados de estas rutas (Yang et al., 2018; Zhang et al., 2020).
 
 ---
 
